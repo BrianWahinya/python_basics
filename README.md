@@ -5,7 +5,8 @@ To execute this you need to call the files from a shell
 
 Todo list:
 
-- Asterick (\*) Shapes
+**1. Asterick (\*) Shapes**
+
 - [ ] Triangle
 - [ ] Trapezium
 - [ ] Square
@@ -14,5 +15,6 @@ Todo list:
 - [ ] Hexagon
 - [ ] Octagon
 
-- Games
+**2. Games**
+
 - [ ] Rock, paper, scissors
