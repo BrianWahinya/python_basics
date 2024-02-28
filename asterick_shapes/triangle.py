@@ -1,13 +1,15 @@
-rows = 30
-columns = 10
+from utils import clear_cmd
 
-########### 90deg #############
+clear_cmd()
+
+rows = 20
+columns = 20
+
 print('''
-#############################
-########### 90deg ###########
-#############################
+############################
+########### 90deg ##########
+############################
 ''')
-
 
 print("\nTop Left\n")
 for row in range(rows + 1):
@@ -37,6 +39,37 @@ for row in range(rows + 1, 0, -1):
     stringB = "*" * col
     print(stringA + stringB)
 
+print('''
+############################
+###### Dynamic Angles ######
+############################
+''')
+
+# print('''
+# ---*----
+# --***---
+# -*****--
+# *******-
+
+# ''')
+
+print("\nTop Middle\n")
+mid = int(columns / 2)
+for row in range(rows + 1):
+    count = row + (row + 1)
+    sub = mid - (row + 1)
+    if sub < 0: break
+    stars = "*" * count
+    spaces = " " * sub
+    print(spaces + stars)
+
+
+
+
+
+
+
 
 # if __name__ == "main":
-#     pass
+#     clear_cmd()
+#     print(clear_cmd())
