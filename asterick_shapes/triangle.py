@@ -2,8 +2,8 @@ from utils import clear_cmd
 
 clear_cmd()
 
-rows = 20
-columns = 20
+rows = 10
+columns = 10
 
 print('''
 ############################
@@ -59,6 +59,16 @@ for row in range(rows + 1):
     count = row + (row + 1)
     sub = mid - (row + 1)
     if sub < 0: break
+    stars = "*" * count
+    spaces = " " * sub
+    print(spaces + stars)
+
+print("\nBottom Middle\n")
+mid = int(columns / 2)
+for row in range(rows, -1, -1):
+    count = row + (row + 1)
+    sub = mid - (row + 1)
+    if sub < 0 : continue
     stars = "*" * count
     spaces = " " * sub
     print(spaces + stars)
