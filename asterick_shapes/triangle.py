@@ -45,16 +45,9 @@ print('''
 ############################
 ''')
 
-# print('''
-# ---*----
-# --***---
-# -*****--
-# *******-
-
-# ''')
+mid = int(columns / 2)
 
 print("\nTop Middle\n")
-mid = int(columns / 2)
 for row in range(rows + 1):
     count = row + (row + 1)
     sub = mid - (row + 1)
@@ -64,7 +57,6 @@ for row in range(rows + 1):
     print(spaces + stars)
 
 print("\nBottom Middle\n")
-mid = int(columns / 2)
 for row in range(rows, -1, -1):
     count = row + (row + 1)
     sub = mid - (row + 1)
@@ -73,10 +65,24 @@ for row in range(rows, -1, -1):
     spaces = " " * sub
     print(spaces + stars)
 
+print("\nMiddle Left\n")
+find_bigger = lambda x, y: (int(x / 2) if x < y else int(y / 2))
+mod_mid = find_bigger(columns, rows)
+for row in range(rows + 1):
+    if row < mod_mid:
+        no_stars = row + 1
+        no_spaces = mod_mid - no_stars
+        stars = "*" * no_stars
+        spaces = " " * no_spaces
+        print(spaces + stars)
 
-
-
-
+    if row > mod_mid:
+        no_spaces = row - mod_mid
+        no_stars = mod_mid - no_spaces
+        if no_stars <= 0: break
+        stars = "*" * no_stars
+        spaces = " " * no_spaces
+        print(spaces + stars)
 
 
 
