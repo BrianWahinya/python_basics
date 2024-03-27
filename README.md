@@ -7,9 +7,9 @@ Todo list:
 
 **1. Asterick (\*) Shapes**
 
-- [ ] Triangle
+- [x] Triangle
 - [ ] Trapezium
-- [ ] Square
+- [x] Square
 - [ ] Circle
 - [ ] Semi-circle
 - [ ] Hexagon
@@ -18,3 +18,14 @@ Todo list:
 **2. Games**
 
 - [ ] Rock, paper, scissors
+
+**3. Coding Tasks**
+
+- [x] Palindrome
+- [x] Anagram
+- [ ] Highest repeated sequence
+- [ ] Fizzbuzz
+- [ ] Spiral matrix
+- [ ] Find and count vowels
+- [ ] Gcd
+- [ ] Sum between 2 indexes
