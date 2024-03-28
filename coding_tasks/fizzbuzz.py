@@ -1,3 +1,6 @@
+import sys
+sys.path.append('./../')
+
 from utils import clear_cmd, userInputInt
 
 clear_cmd()
