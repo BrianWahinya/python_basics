@@ -24,8 +24,8 @@ Todo list:
 - [x] Palindrome
 - [x] Anagram
 - [ ] Highest repeated sequence
-- [ ] Fizzbuzz
+- [x] Fizzbuzz
 - [ ] Spiral matrix
-- [ ] Find and count vowels
+- [x] Find vowels
 - [ ] Gcd
 - [ ] Sum between 2 indexes

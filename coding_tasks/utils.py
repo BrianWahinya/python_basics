@@ -12,6 +12,15 @@ def userInput():
     
     return user_input
 
+def userInputInt():
+    user_input = input("Please enter a valid value:\n")
+
+    while not (user_input and user_input.isnumeric()):
+        print("Error: Please input valid values")
+        user_input = input("Input:\n")
+    
+    return user_input
+
 def remove_special_characters(text):
     # Define a regular expression pattern to match special characters
     pattern = r'[^a-zA-Z0-9\s]'  # This pattern matches anything that is not a letter, digit, or whitespace
