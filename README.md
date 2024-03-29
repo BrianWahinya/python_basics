@@ -27,5 +27,5 @@ Todo list:
 - [x] Fizzbuzz
 - [ ] Spiral matrix
 - [x] Find vowels
-- [ ] Gcd
+- [x] Greatest Common Denominator (GCD)
 - [ ] Sum between 2 indexes
