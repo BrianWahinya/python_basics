@@ -1,5 +1,3 @@
-import sys
-sys.path.append('./../')
 import re
 from utils import clear_cmd, userInput
 
@@ -10,7 +8,7 @@ clear_cmd()
 
 print('''
 ############################
-######### Vowels #########
+########## Vowels ##########
 ############################
 ''')
 
