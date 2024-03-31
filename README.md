@@ -23,9 +23,10 @@ Todo list:
 
 - [x] Palindrome
 - [x] Anagram
-- [ ] Highest repeated sequence
+- [x] Longest repeated sequence
 - [x] Fizzbuzz
 - [ ] Spiral matrix
 - [x] Find vowels
 - [x] Greatest Common Denominator (GCD)
-- [ ] Sum between 2 indexes
+- [ ] Least Common Multiple (LCM)
+- [x] Sum between 2 indexes
