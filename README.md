@@ -25,6 +25,7 @@ Todo list:
 - [x] Anagram
 - [x] Longest repeated sequence
 - [x] Fizzbuzz
+- [x] Fibonacci
 - [ ] Spiral matrix
 - [x] Find vowels
 - [x] Greatest Common Denominator (GCD)
