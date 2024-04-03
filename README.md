@@ -31,3 +31,5 @@ Todo list:
 - [x] Greatest Common Denominator (GCD)
 - [ ] Least Common Multiple (LCM)
 - [x] Sum between 2 indexes
+- [x] Reverse a string
+- [x] Smallest integer whose sum of elements is double an integer
